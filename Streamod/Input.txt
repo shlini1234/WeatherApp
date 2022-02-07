@@ -1,0 +1,14 @@
+stream is object that let you read data from a source or write data to a 
+destination in continuous fashion.in node.js ,there are four types of streams-
+steaming means listening to music or watching video in real time ,instead downloading 
+a file to your computer and watching it later..
+//Readable=>stream which is used for read operation
+//writable=>stream which is used for write operation.
+//Duplex=>stream which can be used for both read and write opration.
+//Tranform=>A type of duplex stream where the outputis computed based on input..
+//*********Each type of stream is an EventEmitter instance and throws several events
+//at different instance of times.for example.some of the commonly used events are
+//data=> this event is fired when there is data is available to read
+//end=>this event is fired when there is no more data to read..
+//error=>this event when there is any error receiving or writing data..
+//finsh=>this event is fired when all the data has been flushed to underlying system.
